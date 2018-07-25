@@ -1,0 +1,1359 @@
+[20180309 105119 393][INFO ][main][NamedProperties] - U 更新 refresh(com.bs3.ioc.core.BeansContext) = [23] file:/D:/workspace/lianDongYouShi/Dps-modle-web-containerV2/resource/mina2niocs.properties
+[20180309 105120 271][INFO ][main][BeansContext] - # Beans Defined  3 [NioExecutor, NioServer, NioServerHandler]
+[20180309 105120 271][INFO ][main][BeansContext] - # Beans Started  3 [NioExecutor, NioServer, NioServerHandler]
+[20180309 105120 272][INFO ][main][NioServerHandler] - 模型web容器启动成功
+[20180309 105159 974][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x00000002: nio socket, server, /127.0.0.1:58988 => /127.0.0.1:9013)...Sessions=1
+[20180309 105200 014][INFO ][pool-2-thread-1][NioServerHandler] - 收到的url：/daShuJinRong/ump/
+[20180309 105200 014][INFO ][pool-2-thread-1][NioServerHandler] - 模接收到的报文为：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>UMPTEST53714420180309105156</transid>
+  <datetime>20180309105156</datetime>
+  <retcode>0000</retcode>
+  <mobileid>4b8609c2c59640edcaf5fa0f204defe1</mobileid>
+  <querymonth>201607</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">660</value><value m="2">1440</value><value m="3">10</value><value m="4">1930</value><value m="5">9540</value><value m="6">6280</value><value m="7">1310</value><value m="8">830</value><value m="9">5092</value><value m="10">0</value><value m="11">1000</value><value m="12">350</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">165040</value><value m="2">57275</value><value m="3">41640</value><value m="4">138864</value><value m="5">108130</value><value m="6">301899</value><value m="7">88224</value><value m="8">100467</value><value m="9">88698</value><value m="10">1000</value><value m="11">31290</value><value m="12">53890</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">12350</value><value m="2">1600</value><value m="3">3850</value><value m="4">8680</value><value m="5">8960</value><value m="6">6030</value><value m="7">4950</value><value m="8">19880</value><value m="9">2050</value><value m="10">4800</value><value m="11">2040</value><value m="12">2810</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">12350</value><value m="2">1600</value><value m="3">3850</value><value m="4">8680</value><value m="5">8960</value><value m="6">6030</value><value m="7">4950</value><value m="8">19880</value><value m="9">2050</value><value m="10">4800</value><value m="11">2040</value><value m="12">2810</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">4</value><value m="2">2</value><value m="3">4</value><value m="4">2</value><value m="5">2</value><value m="6">2</value><value m="7">2</value><value m="8">4</value><value m="9">2</value><value m="10">unknown</value><value m="11">4</value><value m="12">6</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">19590</value><value m="2">1950</value><value m="3">1800</value><value m="4">15480</value><value m="5">1900</value><value m="6">1900</value><value m="7">1800</value><value m="8">1970</value><value m="9">1700</value><value m="10">unknown</value><value m="11">1950</value><value m="12">1810</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">44540</value><value m="2">5008</value><value m="3">280</value><value m="4">17446</value><value m="5">1900</value><value m="6">209</value><value m="7">3810</value><value m="8">50</value><value m="9">2000</value><value m="10">unknown</value><value m="11">300</value><value m="12">15200</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">16</value><value m="2">3</value><value m="3">1</value><value m="4">9</value><value m="5">4</value><value m="6">2</value><value m="7">8</value><value m="8">1</value><value m="9">1</value><value m="10">unknown</value><value m="11">1</value><value m="12">6</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201304</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>201712</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>2</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">10</value><value m="2">5</value><value m="3">unknown</value><value m="4">1</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">1</value><value m="9">7</value><value m="10">unknown</value><value m="11">2</value><value m="12">8</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">unknown</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">9</value>
+</Label>
+
+</request>
+
+[20180309 105200 280][INFO ][pool-2-thread-1][NioServerHandler] - [UMPTEST53714420180309105156,20180309105156,Gcs2000006,4b8609c2c59640edcaf5fa0f204defe1]响应耗时:266,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>UMPTEST53714420180309105156</transid>
+    <datetime>20180309105200</datetime>
+    <retcode>0000</retcode>
+    <score>560</score>
+</response>
+
+[20180309 105200 280][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>UMPTEST53714420180309105156</transid>
+    <datetime>20180309105200</datetime>
+    <retcode>0000</retcode>
+    <score>560</score>
+</response>
+
+[20180309 105208 518][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x00000002: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 105208 521][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x00000002] 读1/3844B,写1/386B,历时373ms,读写速度:5.4(R+W/s)/11.34(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180309 111225 720][INFO ][main][NamedProperties] - U 更新 refresh(com.bs3.ioc.core.BeansContext) = [23] file:/D:/workspace/lianDongYouShi/Dps-modle-web-containerV2/resource/mina2niocs.properties
+[20180309 111226 238][INFO ][main][BeansContext] - # Beans Defined  3 [NioExecutor, NioServer, NioServerHandler]
+[20180309 111226 238][INFO ][main][BeansContext] - # Beans Started  3 [NioExecutor, NioServer, NioServerHandler]
+[20180309 111226 238][INFO ][main][NioServerHandler] - 模型web容器启动成功
+[20180309 112030 387][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x00000002: nio socket, server, /127.0.0.1:59848 => /127.0.0.1:9013)...Sessions=1
+[20180309 112030 416][INFO ][pool-2-thread-1][NioServerHandler] - 收到的url：/
+[20180309 112030 417][INFO ][pool-2-thread-1][NioServerHandler] - 模接收到的报文为：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <transid>FBP20180308163728_48150</transid>
+  <datetime>20180308163728</datetime>
+  <retcode>0000</retcode>
+  <Label>
+	<id>Pro00003</id><value m="1">660</value><value m="2">1440</value><value m="3">10</value><value m="4">1930</value><value m="5">9540</value><value m="6">6280</value><value m="7">1310</value><value m="8">830</value><value m="9">5092</value><value m="10">0</value><value m="11">1000</value><value m="12">350</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">165040</value><value m="2">57275</value><value m="3">41640</value><value m="4">138864</value><value m="5">108130</value><value m="6">301899</value><value m="7">88224</value><value m="8">100467</value><value m="9">88698</value><value m="10">1000</value><value m="11">31290</value><value m="12">53890</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">12350</value><value m="2">1600</value><value m="3">3850</value><value m="4">8680</value><value m="5">8960</value><value m="6">6030</value><value m="7">4950</value><value m="8">19880</value><value m="9">2050</value><value m="10">4800</value><value m="11">2040</value><value m="12">2810</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">12350</value><value m="2">1600</value><value m="3">3850</value><value m="4">8680</value><value m="5">8960</value><value m="6">6030</value><value m="7">4950</value><value m="8">19880</value><value m="9">2050</value><value m="10">4800</value><value m="11">2040</value><value m="12">2810</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">4</value><value m="2">2</value><value m="3">4</value><value m="4">2</value><value m="5">2</value><value m="6">2</value><value m="7">2</value><value m="8">4</value><value m="9">2</value><value m="10">unknown</value><value m="11">4</value><value m="12">6</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">19590</value><value m="2">1950</value><value m="3">1800</value><value m="4">15480</value><value m="5">1900</value><value m="6">1900</value><value m="7">1800</value><value m="8">1970</value><value m="9">1700</value><value m="10">unknown</value><value m="11">1950</value><value m="12">1810</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">44540</value><value m="2">5008</value><value m="3">280</value><value m="4">17446</value><value m="5">1900</value><value m="6">209</value><value m="7">3810</value><value m="8">50</value><value m="9">2000</value><value m="10">unknown</value><value m="11">300</value><value m="12">15200</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">16</value><value m="2">3</value><value m="3">1</value><value m="4">9</value><value m="5">4</value><value m="6">2</value><value m="7">8</value><value m="8">1</value><value m="9">1</value><value m="10">unknown</value><value m="11">1</value><value m="12">6</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201304</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>unknown</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>2</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">10</value><value m="2">5</value><value m="3">unknown</value><value m="4">1</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">1</value><value m="9">7</value><value m="10">unknown</value><value m="11">2</value><value m="12">8</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">unknown</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">9</value>
+</Label>
+
+</request>
+[20180309 112030 533][INFO ][pool-2-thread-1][NioServerHandler] - [FBP20180308163728_48150,20180308163728,null,null]响应耗时:117,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <transid>FBP20180308163728_48150</transid>
+    <datetime>20180309112030</datetime>
+    <retcode>0104</retcode>
+    <score>0</score>
+</response>
+
+[20180309 112030 533][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <transid>FBP20180308163728_48150</transid>
+    <datetime>20180309112030</datetime>
+    <retcode>0104</retcode>
+    <score>0</score>
+</response>
+
+[20180309 112030 553][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x00000002: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 112030 554][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x00000002] 读1/3697B,写1/346B,历时169ms,读写速度:11.8(R+W/s)/23.92(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180309 112107 766][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x00000003: nio socket, server, /127.0.0.1:59897 => /127.0.0.1:9013)...Sessions=1
+[20180309 112107 768][INFO ][pool-2-thread-1][NioServerHandler] - 收到的url：/
+[20180309 112107 768][INFO ][pool-2-thread-1][NioServerHandler] - 模接收到的报文为：
+<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>FBP20180308163728_48150</transid>
+  <datetime>20180308163728</datetime>
+  <retcode>0000</retcode>
+  <mobileid>4b8609c2c59640edcaf5fa0f204defe1</mobileid>
+  <querymonth>201607</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">660</value><value m="2">1440</value><value m="3">10</value><value m="4">1930</value><value m="5">9540</value><value m="6">6280</value><value m="7">1310</value><value m="8">830</value><value m="9">5092</value><value m="10">0</value><value m="11">1000</value><value m="12">350</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">165040</value><value m="2">57275</value><value m="3">41640</value><value m="4">138864</value><value m="5">108130</value><value m="6">301899</value><value m="7">88224</value><value m="8">100467</value><value m="9">88698</value><value m="10">1000</value><value m="11">31290</value><value m="12">53890</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">12350</value><value m="2">1600</value><value m="3">3850</value><value m="4">8680</value><value m="5">8960</value><value m="6">6030</value><value m="7">4950</value><value m="8">19880</value><value m="9">2050</value><value m="10">4800</value><value m="11">2040</value><value m="12">2810</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">12350</value><value m="2">1600</value><value m="3">3850</value><value m="4">8680</value><value m="5">8960</value><value m="6">6030</value><value m="7">4950</value><value m="8">19880</value><value m="9">2050</value><value m="10">4800</value><value m="11">2040</value><value m="12">2810</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">4</value><value m="2">2</value><value m="3">4</value><value m="4">2</value><value m="5">2</value><value m="6">2</value><value m="7">2</value><value m="8">4</value><value m="9">2</value><value m="10">unknown</value><value m="11">4</value><value m="12">6</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">19590</value><value m="2">1950</value><value m="3">1800</value><value m="4">15480</value><value m="5">1900</value><value m="6">1900</value><value m="7">1800</value><value m="8">1970</value><value m="9">1700</value><value m="10">unknown</value><value m="11">1950</value><value m="12">1810</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">44540</value><value m="2">5008</value><value m="3">280</value><value m="4">17446</value><value m="5">1900</value><value m="6">209</value><value m="7">3810</value><value m="8">50</value><value m="9">2000</value><value m="10">unknown</value><value m="11">300</value><value m="12">15200</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">16</value><value m="2">3</value><value m="3">1</value><value m="4">9</value><value m="5">4</value><value m="6">2</value><value m="7">8</value><value m="8">1</value><value m="9">1</value><value m="10">unknown</value><value m="11">1</value><value m="12">6</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201304</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>unknown</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>2</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">10</value><value m="2">5</value><value m="3">unknown</value><value m="4">1</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">1</value><value m="9">7</value><value m="10">unknown</value><value m="11">2</value><value m="12">8</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">unknown</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">9</value>
+</Label>
+
+</request>
+[20180309 112107 803][INFO ][pool-2-thread-1][NioServerHandler] - [FBP20180308163728_48150,20180308163728,Gcs2000006,4b8609c2c59640edcaf5fa0f204defe1]响应耗时:35,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48150</transid>
+    <datetime>20180309112107</datetime>
+    <retcode>0000</retcode>
+    <score>377</score>
+</response>
+
+[20180309 112107 804][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48150</transid>
+    <datetime>20180309112107</datetime>
+    <retcode>0000</retcode>
+    <score>377</score>
+</response>
+
+[20180309 112107 807][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x00000003: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 112107 807][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x00000003] 读1/3822B,写1/382B,历时41ms,读写速度:48.8(R+W/s)/102.54(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180309 145411 192][INFO ][main][NamedProperties] - U 更新 refresh(com.bs3.ioc.core.BeansContext) = [23] file:/D:/workspace/lianDongYouShi/Dps-modle-web-containerV2/resource/mina2niocs.properties
+[20180309 145411 813][INFO ][main][BeansContext] - # Beans Defined  3 [NioExecutor, NioServer, NioServerHandler]
+[20180309 145411 813][INFO ][main][BeansContext] - # Beans Started  3 [NioExecutor, NioServer, NioServerHandler]
+[20180309 145411 813][INFO ][main][NioServerHandler] - 模型web容器启动成功
+[20180309 145414 880][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x00000002: nio socket, server, /127.0.0.1:51294 => /127.0.0.1:9013)...Sessions=1
+[20180309 145421 701][INFO ][pool-2-thread-1][NioServerHandler] - 收到的url：/
+[20180309 145421 704][INFO ][pool-2-thread-1][NioServerHandler] - 模接收到的报文为：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>FBP20180308163728_48149</transid>
+  <datetime>20180308163728</datetime>
+  <retcode>0000</retcode>
+  <mobileid>1da508ceda8b84470a841f45eb16d2ae</mobileid>
+  <querymonth>201706</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">1010</value><value m="2">7977</value><value m="3">7286</value><value m="4">724</value><value m="5">488</value><value m="6">2080</value><value m="7">10010</value><value m="8">17030</value><value m="9">2300</value><value m="10">130</value><value m="11">1070</value><value m="12">21880</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">162348</value><value m="2">205231</value><value m="3">167357</value><value m="4">169460</value><value m="5">128179</value><value m="6">259494</value><value m="7">218822</value><value m="8">131988</value><value m="9">339954</value><value m="10">129442</value><value m="11">319673</value><value m="12">120418</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">9990</value><value m="2">7190</value><value m="3">10000</value><value m="4">9390</value><value m="5">9980</value><value m="6">9980</value><value m="7">6070</value><value m="8">7880</value><value m="9">10070</value><value m="10">7280</value><value m="11">13400</value><value m="12">1500</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">9990</value><value m="2">7190</value><value m="3">10000</value><value m="4">9390</value><value m="5">9980</value><value m="6">9980</value><value m="7">6070</value><value m="8">7880</value><value m="9">10070</value><value m="10">7280</value><value m="11">13400</value><value m="12">1500</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">10</value><value m="2">10</value><value m="3">7</value><value m="4">8</value><value m="5">5</value><value m="6">6</value><value m="7">4</value><value m="8">5</value><value m="9">2</value><value m="10">5</value><value m="11">5</value><value m="12">3</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">50800</value><value m="2">42820</value><value m="3">58010</value><value m="4">31770</value><value m="5">33610</value><value m="6">33630</value><value m="7">22509</value><value m="8">23540</value><value m="9">30000</value><value m="10">18429</value><value m="11">35070</value><value m="12">11350</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">150</value><value m="2">42890</value><value m="3">18170</value><value m="4">11110</value><value m="5">2960</value><value m="6">12350</value><value m="7">14480</value><value m="8">5498</value><value m="9">41240</value><value m="10">6050</value><value m="11">2140</value><value m="12">11300</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">5</value><value m="2">9</value><value m="3">11</value><value m="4">9</value><value m="5">7</value><value m="6">16</value><value m="7">4</value><value m="8">8</value><value m="9">10</value><value m="10">10</value><value m="11">4</value><value m="12">14</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201506</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>unknown</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>4</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">5</value><value m="2">7</value><value m="3">6</value><value m="4">3</value><value m="5">3</value><value m="6">6</value><value m="7">2</value><value m="8">7</value><value m="9">5</value><value m="10">3</value><value m="11">10</value><value m="12">10</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">1</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">unknown</value>
+</Label>
+
+</request>
+[20180309 145422 050][INFO ][pool-2-thread-1][NioServerHandler] - [FBP20180308163728_48149,20180308163728,Gcs2000006,1da508ceda8b84470a841f45eb16d2ae]响应耗时:7131,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48149</transid>
+    <datetime>20180309145422</datetime>
+    <retcode>0000</retcode>
+    <score>428</score>
+</response>
+
+[20180309 145422 050][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48149</transid>
+    <datetime>20180309145422</datetime>
+    <retcode>0000</retcode>
+    <score>428</score>
+</response>
+
+[20180309 145422 080][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x00000002: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 145422 082][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x00000002] 读1/3817B,写1/382B,历时7191ms,读写速度:0.3(R+W/s)/0.58(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180309 145523 296][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x00000003: nio socket, server, /127.0.0.1:51323 => /127.0.0.1:9013)...Sessions=1
+[20180309 145523 298][INFO ][pool-2-thread-1][NioServerHandler] - 收到的url：/
+[20180309 145523 298][INFO ][pool-2-thread-1][NioServerHandler] - 模接收到的报文为：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>FBP20180308163728_48150</transid>
+  <datetime>20180308163728</datetime>
+  <retcode>0000</retcode>
+  <mobileid>4b8609c2c59640edcaf5fa0f204defe1</mobileid>
+  <querymonth>201607</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">660</value><value m="2">1440</value><value m="3">10</value><value m="4">1930</value><value m="5">9540</value><value m="6">6280</value><value m="7">1310</value><value m="8">830</value><value m="9">5092</value><value m="10">0</value><value m="11">1000</value><value m="12">350</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">165040</value><value m="2">57275</value><value m="3">41640</value><value m="4">138864</value><value m="5">108130</value><value m="6">301899</value><value m="7">88224</value><value m="8">100467</value><value m="9">88698</value><value m="10">1000</value><value m="11">31290</value><value m="12">53890</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">12350</value><value m="2">1600</value><value m="3">3850</value><value m="4">8680</value><value m="5">8960</value><value m="6">6030</value><value m="7">4950</value><value m="8">19880</value><value m="9">2050</value><value m="10">4800</value><value m="11">2040</value><value m="12">2810</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">12350</value><value m="2">1600</value><value m="3">3850</value><value m="4">8680</value><value m="5">8960</value><value m="6">6030</value><value m="7">4950</value><value m="8">19880</value><value m="9">2050</value><value m="10">4800</value><value m="11">2040</value><value m="12">2810</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">4</value><value m="2">2</value><value m="3">4</value><value m="4">2</value><value m="5">2</value><value m="6">2</value><value m="7">2</value><value m="8">4</value><value m="9">2</value><value m="10">unknown</value><value m="11">4</value><value m="12">6</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">19590</value><value m="2">1950</value><value m="3">1800</value><value m="4">15480</value><value m="5">1900</value><value m="6">1900</value><value m="7">1800</value><value m="8">1970</value><value m="9">1700</value><value m="10">unknown</value><value m="11">1950</value><value m="12">1810</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">44540</value><value m="2">5008</value><value m="3">280</value><value m="4">17446</value><value m="5">1900</value><value m="6">209</value><value m="7">3810</value><value m="8">50</value><value m="9">2000</value><value m="10">unknown</value><value m="11">300</value><value m="12">15200</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">16</value><value m="2">3</value><value m="3">1</value><value m="4">9</value><value m="5">4</value><value m="6">2</value><value m="7">8</value><value m="8">1</value><value m="9">1</value><value m="10">unknown</value><value m="11">1</value><value m="12">6</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201304</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>unknown</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>2</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">10</value><value m="2">5</value><value m="3">unknown</value><value m="4">1</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">1</value><value m="9">7</value><value m="10">unknown</value><value m="11">2</value><value m="12">8</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">unknown</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">9</value>
+</Label>
+
+</request>
+[20180309 145523 321][INFO ][pool-2-thread-1][NioServerHandler] - [FBP20180308163728_48150,20180308163728,Gcs2000006,4b8609c2c59640edcaf5fa0f204defe1]响应耗时:24,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48150</transid>
+    <datetime>20180309145523</datetime>
+    <retcode>0000</retcode>
+    <score>377</score>
+</response>
+
+[20180309 145523 321][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48150</transid>
+    <datetime>20180309145523</datetime>
+    <retcode>0000</retcode>
+    <score>377</score>
+</response>
+
+[20180309 145523 324][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x00000003: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 145523 324][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x00000003] 读1/3822B,写1/382B,历时28ms,读写速度:71.4(R+W/s)/150.14(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180309 145601 218][INFO ][pool-2-thread-2][Mina2H4Abstract] - O (0x00000004: nio socket, server, /127.0.0.1:51350 => /127.0.0.1:9013)...Sessions=1
+[20180309 145601 220][INFO ][pool-2-thread-2][NioServerHandler] - 收到的url：/
+[20180309 145601 220][INFO ][pool-2-thread-2][NioServerHandler] - 模接收到的报文为：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>FBP20180308165418_58133</transid>
+  <datetime>20180308165418</datetime>
+  <retcode>0000</retcode>
+  <mobileid>bbc632ec500a947eb1fab1bab51f9fcf</mobileid>
+  <querymonth>201704</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">1746</value><value m="2">1761</value><value m="3">1797</value><value m="4">1190</value><value m="5">13200</value><value m="6">80</value><value m="7">0</value><value m="8">20</value><value m="9">80</value><value m="10">10</value><value m="11">40</value><value m="12">60</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">5287</value><value m="2">6369</value><value m="3">6336</value><value m="4">29000</value><value m="5">27670</value><value m="6">4190</value><value m="7">3500</value><value m="8">3610</value><value m="9">3720</value><value m="10">3600</value><value m="11">3350</value><value m="12">4620</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">1070</value><value m="2">5000</value><value m="3">3600</value><value m="4">6000</value><value m="5">15450</value><value m="6">1080</value><value m="7">790</value><value m="8">1490</value><value m="9">1110</value><value m="10">4520</value><value m="11">25780</value><value m="12">10020</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">1070</value><value m="2">5000</value><value m="3">3600</value><value m="4">6000</value><value m="5">15450</value><value m="6">1080</value><value m="7">790</value><value m="8">1490</value><value m="9">1110</value><value m="10">4520</value><value m="11">25780</value><value m="12">10020</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">3</value><value m="2">2</value><value m="3">1</value><value m="4">1</value><value m="5">4</value><value m="6">2</value><value m="7">1</value><value m="8">6</value><value m="9">3</value><value m="10">3</value><value m="11">2</value><value m="12">3</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">8580</value><value m="2">8450</value><value m="3">8360</value><value m="4">5300</value><value m="5">8140</value><value m="6">600</value><value m="7">4480</value><value m="8">8260</value><value m="9">4140</value><value m="10">960</value><value m="11">2000</value><value m="12">2750</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">0</value><value m="2">0</value><value m="3">853</value><value m="4">1480</value><value m="5">1110</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">3300</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">2800</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">0</value><value m="2">0</value><value m="3">2</value><value m="4">6</value><value m="5">3</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">1</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">1</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201403</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>unknown</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>2</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">0</value><value m="2">0</value><value m="3">0</value><value m="4">unknown</value><value m="5">4</value><value m="6">2</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">1</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">1</value>
+</Label>
+
+</request>
+[20180309 145601 243][INFO ][pool-2-thread-2][NioServerHandler] - [FBP20180308165418_58133,20180308165418,Gcs2000006,bbc632ec500a947eb1fab1bab51f9fcf]响应耗时:23,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308165418_58133</transid>
+    <datetime>20180309145601</datetime>
+    <retcode>0000</retcode>
+    <score>400</score>
+</response>
+
+[20180309 145601 243][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308165418_58133</transid>
+    <datetime>20180309145601</datetime>
+    <retcode>0000</retcode>
+    <score>400</score>
+</response>
+
+[20180309 145601 269][INFO ][pool-2-thread-2][Mina2H4Abstract] - * (0x00000004: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 145601 270][INFO ][pool-2-thread-2][Mina2H4Abstract] - * [0x00000004] 读1/3824B,写1/382B,历时28ms,读写速度:71.4(R+W/s)/150.21(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180309 145658 351][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x00000005: nio socket, server, /127.0.0.1:51382 => /127.0.0.1:9013)...Sessions=1
+[20180309 145658 353][INFO ][pool-2-thread-1][NioServerHandler] - 收到的url：/
+[20180309 145658 354][INFO ][pool-2-thread-1][NioServerHandler] - 模接收到的报文为：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>FBP20180308163728_48152</transid>
+  <datetime>20180308163728</datetime>
+  <retcode>0000</retcode>
+  <mobileid>e200e08cfbec5c1b21c7ee35309fb4cd</mobileid>
+  <querymonth>201606</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">20</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">16000</value><value m="2">10000</value><value m="3">25990</value><value m="4">90</value><value m="5">10490</value><value m="6">90</value><value m="7">29020</value><value m="8">90</value><value m="9">130</value><value m="10">29020</value><value m="11">20000</value><value m="12">30</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">16000</value><value m="2">10000</value><value m="3">25990</value><value m="4">90</value><value m="5">10490</value><value m="6">90</value><value m="7">29020</value><value m="8">90</value><value m="9">130</value><value m="10">29020</value><value m="11">20000</value><value m="12">30</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">36</value><value m="2">12</value><value m="3">2</value><value m="4">2</value><value m="5">2</value><value m="6">6</value><value m="7">5</value><value m="8">4</value><value m="9">3</value><value m="10">3</value><value m="11">5</value><value m="12">2</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">85830</value><value m="2">33200</value><value m="3">13990</value><value m="4">13640</value><value m="5">50</value><value m="6">32380</value><value m="7">unknown</value><value m="8">2030</value><value m="9">29020</value><value m="10">210</value><value m="11">15550</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201401</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>unknown</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>3</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">unknown</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">3</value>
+</Label>
+
+</request>
+[20180309 145658 373][INFO ][pool-2-thread-1][NioServerHandler] - [FBP20180308163728_48152,20180308163728,Gcs2000006,e200e08cfbec5c1b21c7ee35309fb4cd]响应耗时:20,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48152</transid>
+    <datetime>20180309145658</datetime>
+    <retcode>0000</retcode>
+    <score>334</score>
+</response>
+
+[20180309 145658 373][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48152</transid>
+    <datetime>20180309145658</datetime>
+    <retcode>0000</retcode>
+    <score>334</score>
+</response>
+
+[20180309 145658 375][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x00000005: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 145658 376][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x00000005] 读1/4015B,写1/382B,历时24ms,读写速度:83.3(R+W/s)/183.21(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180309 145741 349][INFO ][pool-2-thread-2][Mina2H4Abstract] - O (0x00000006: nio socket, server, /127.0.0.1:51399 => /127.0.0.1:9013)...Sessions=1
+[20180309 145741 352][INFO ][pool-2-thread-2][NioServerHandler] - 收到的url：/
+[20180309 145741 352][INFO ][pool-2-thread-2][NioServerHandler] - 模接收到的报文为：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>FBP20180308163728_48153</transid>
+  <datetime>20180308163728</datetime>
+  <retcode>0000</retcode>
+  <mobileid>04bdb1459cf40c870f150a22703196db</mobileid>
+  <querymonth>201707</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">40</value><value m="2">130</value><value m="3">210</value><value m="4">560</value><value m="5">190</value><value m="6">660</value><value m="7">1160</value><value m="8">170</value><value m="9">30</value><value m="10">400</value><value m="11">360</value><value m="12">1130</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">5742</value><value m="2">5641</value><value m="3">13292</value><value m="4">27742</value><value m="5">28192</value><value m="6">13584</value><value m="7">17102</value><value m="8">11122</value><value m="9">14062</value><value m="10">10070</value><value m="11">34012</value><value m="12">15065</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">30</value><value m="2">8790</value><value m="3">4340</value><value m="4">310</value><value m="5">5070</value><value m="6">20</value><value m="7">2350</value><value m="8">0</value><value m="9">2040</value><value m="10">1480</value><value m="11">1990</value><value m="12">400</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">unknown</value><value m="2">8790</value><value m="3">4340</value><value m="4">310</value><value m="5">5070</value><value m="6">unknown</value><value m="7">2350</value><value m="8">unknown</value><value m="9">2040</value><value m="10">1480</value><value m="11">1990</value><value m="12">400</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">1</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">1</value><value m="10">1</value><value m="11">3</value><value m="12">4</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">3290</value><value m="2">140</value><value m="3">3740</value><value m="4">1760</value><value m="5">13970</value><value m="6">1370</value><value m="7">660</value><value m="8">4956</value><value m="9">1666</value><value m="10">1010</value><value m="11">2400</value><value m="12">3280</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">2</value><value m="2">6</value><value m="3">14</value><value m="4">8</value><value m="5">15</value><value m="6">8</value><value m="7">6</value><value m="8">10</value><value m="9">7</value><value m="10">6</value><value m="11">24</value><value m="12">8</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201501</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>unknown</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>1</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">1</value><value m="2">3</value><value m="3">1</value><value m="4">4</value><value m="5">4</value><value m="6">4</value><value m="7">11</value><value m="8">3</value><value m="9">5</value><value m="10">3</value><value m="11">6</value><value m="12">3</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">1</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">1</value>
+</Label>
+
+</request>
+[20180309 145741 367][INFO ][pool-2-thread-2][NioServerHandler] - [FBP20180308163728_48153,20180308163728,Gcs2000006,04bdb1459cf40c870f150a22703196db]响应耗时:15,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48153</transid>
+    <datetime>20180309145741</datetime>
+    <retcode>0000</retcode>
+    <score>387</score>
+</response>
+
+[20180309 145741 367][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48153</transid>
+    <datetime>20180309145741</datetime>
+    <retcode>0000</retcode>
+    <score>387</score>
+</response>
+
+[20180309 145741 369][INFO ][pool-2-thread-2][Mina2H4Abstract] - * (0x00000006: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 145741 369][INFO ][pool-2-thread-2][Mina2H4Abstract] - * [0x00000006] 读1/3832B,写1/382B,历时20ms,读写速度:100.0(R+W/s)/210.70(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180309 145824 337][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x00000007: nio socket, server, /127.0.0.1:51417 => /127.0.0.1:9013)...Sessions=1
+[20180309 145824 339][INFO ][pool-2-thread-1][NioServerHandler] - 收到的url：/
+[20180309 145824 339][INFO ][pool-2-thread-1][NioServerHandler] - 模接收到的报文为：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>FBP20180308165418_58136</transid>
+  <datetime>20180308165418</datetime>
+  <retcode>0000</retcode>
+  <mobileid>458b181fb9ea9ff17eb352183a56534a</mobileid>
+  <querymonth>201704</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">2390</value><value m="2">110</value><value m="3">500</value><value m="4">360</value><value m="5">460</value><value m="6">30</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">2390</value><value m="2">110</value><value m="3">500</value><value m="4">360</value><value m="5">460</value><value m="6">30</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">1</value><value m="2">1</value><value m="3">2</value><value m="4">2</value><value m="5">unknown</value><value m="6">1</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">780</value><value m="2">560</value><value m="3">419</value><value m="4">360</value><value m="5">unknown</value><value m="6">9</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201609</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>unknown</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>2</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">2</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">unknown</value>
+</Label>
+
+</request>
+[20180309 145824 354][INFO ][pool-2-thread-1][NioServerHandler] - [FBP20180308165418_58136,20180308165418,Gcs2000006,458b181fb9ea9ff17eb352183a56534a]响应耗时:15,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308165418_58136</transid>
+    <datetime>20180309145824</datetime>
+    <retcode>0000</retcode>
+    <score>360</score>
+</response>
+
+[20180309 145824 354][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308165418_58136</transid>
+    <datetime>20180309145824</datetime>
+    <retcode>0000</retcode>
+    <score>360</score>
+</response>
+
+[20180309 145824 360][INFO ][pool-2-thread-2][Mina2H4Abstract] - * (0x00000007: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 145824 360][INFO ][pool-2-thread-2][Mina2H4Abstract] - * [0x00000007] 读1/4092B,写1/382B,历时18ms,读写速度:111.1(R+W/s)/248.56(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180309 145902 520][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x00000008: nio socket, server, /127.0.0.1:51433 => /127.0.0.1:9013)...Sessions=1
+[20180309 145902 521][INFO ][pool-2-thread-1][NioServerHandler] - 收到的url：/
+[20180309 145902 521][INFO ][pool-2-thread-1][NioServerHandler] - 模接收到的报文为：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>FBP20180308163728_48155</transid>
+  <datetime>20180308163728</datetime>
+  <retcode>0000</retcode>
+  <mobileid>d8be51af13e591feed5378635ec3aa40</mobileid>
+  <querymonth>201706</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">6230</value><value m="2">11535</value><value m="3">1734</value><value m="4">1200</value><value m="5">1194</value><value m="6">17151</value><value m="7">5760</value><value m="8">20900</value><value m="9">2980</value><value m="10">11770</value><value m="11">5430</value><value m="12">7810</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">292612</value><value m="2">471704</value><value m="3">460763</value><value m="4">318349</value><value m="5">376366</value><value m="6">923190</value><value m="7">829700</value><value m="8">306270</value><value m="9">468700</value><value m="10">527720</value><value m="11">796920</value><value m="12">296470</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">27060</value><value m="2">4262</value><value m="3">4028</value><value m="4">3722</value><value m="5">3642</value><value m="6">2610</value><value m="7">4730</value><value m="8">3000</value><value m="9">6020</value><value m="10">7630</value><value m="11">3600</value><value m="12">2190</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">4074</value><value m="2">4267</value><value m="3">4025</value><value m="4">3843</value><value m="5">3787</value><value m="6">2610</value><value m="7">4730</value><value m="8">3000</value><value m="9">6020</value><value m="10">7630</value><value m="11">3600</value><value m="12">2190</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">4</value><value m="2">9</value><value m="3">7</value><value m="4">8</value><value m="5">11</value><value m="6">8</value><value m="7">8</value><value m="8">7</value><value m="9">9</value><value m="10">8</value><value m="11">5</value><value m="12">8</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">27060</value><value m="2">45300</value><value m="3">32990</value><value m="4">9820</value><value m="5">30080</value><value m="6">9980</value><value m="7">15940</value><value m="8">21540</value><value m="9">33160</value><value m="10">3090</value><value m="11">2620</value><value m="12">12400</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">27902</value><value m="2">13511</value><value m="3">60500</value><value m="4">17992</value><value m="5">27917</value><value m="6">27400</value><value m="7">70310</value><value m="8">31890</value><value m="9">26100</value><value m="10">23580</value><value m="11">6680</value><value m="12">9700</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">8</value><value m="2">4</value><value m="3">13</value><value m="4">7</value><value m="5">5</value><value m="6">9</value><value m="7">22</value><value m="8">54</value><value m="9">7</value><value m="10">10</value><value m="11">7</value><value m="12">4</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201312</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>201609</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>4</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">5</value><value m="2">12</value><value m="3">11</value><value m="4">11</value><value m="5">15</value><value m="6">41</value><value m="7">26</value><value m="8">22</value><value m="9">6</value><value m="10">13</value><value m="11">12</value><value m="12">11</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">4</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">5</value>
+</Label>
+
+</request>
+[20180309 145902 534][INFO ][pool-2-thread-1][NioServerHandler] - [FBP20180308163728_48155,20180308163728,Gcs2000006,d8be51af13e591feed5378635ec3aa40]响应耗时:13,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48155</transid>
+    <datetime>20180309145902</datetime>
+    <retcode>0000</retcode>
+    <score>579</score>
+</response>
+
+[20180309 145902 534][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48155</transid>
+    <datetime>20180309145902</datetime>
+    <retcode>0000</retcode>
+    <score>579</score>
+</response>
+
+[20180309 145902 538][INFO ][pool-2-thread-2][Mina2H4Abstract] - * (0x00000008: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 145902 539][INFO ][pool-2-thread-2][Mina2H4Abstract] - * [0x00000008] 读1/3815B,写1/382B,历时16ms,读写速度:125.0(R+W/s)/262.31(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180309 145935 042][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x00000009: nio socket, server, /127.0.0.1:51446 => /127.0.0.1:9013)...Sessions=1
+[20180309 145935 044][INFO ][pool-2-thread-1][NioServerHandler] - 收到的url：/
+[20180309 145935 044][INFO ][pool-2-thread-1][NioServerHandler] - 模接收到的报文为：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>FBP20180308165418_58138</transid>
+  <datetime>20180308165418</datetime>
+  <retcode>0000</retcode>
+  <mobileid>f8fec9321e350f8d6dd6ede1e07eab47</mobileid>
+  <querymonth>201610</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">0</value><value m="2">0</value><value m="3">0</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">3150</value><value m="2">4030</value><value m="3">3410</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">1000</value><value m="2">10</value><value m="3">1150</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">1</value><value m="2">1</value><value m="3">3</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>unknown</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>unknown</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>2</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">unknown</value><value m="2">2</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">2</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">1</value>
+</Label>
+
+</request>
+[20180309 145935 059][INFO ][pool-2-thread-1][NioServerHandler] - [FBP20180308165418_58138,20180308165418,Gcs2000006,f8fec9321e350f8d6dd6ede1e07eab47]响应耗时:15,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308165418_58138</transid>
+    <datetime>20180309145935</datetime>
+    <retcode>0000</retcode>
+    <score>367</score>
+</response>
+
+[20180309 145935 059][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308165418_58138</transid>
+    <datetime>20180309145935</datetime>
+    <retcode>0000</retcode>
+    <score>367</score>
+</response>
+
+[20180309 145935 062][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x00000009: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 145935 062][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x00000009] 读1/4125B,写1/382B,历时19ms,读写速度:105.3(R+W/s)/237.21(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180309 150014 038][INFO ][pool-2-thread-2][Mina2H4Abstract] - O (0x0000000A: nio socket, server, /127.0.0.1:51462 => /127.0.0.1:9013)...Sessions=1
+[20180309 150014 039][INFO ][pool-2-thread-2][NioServerHandler] - 收到的url：/
+[20180309 150014 039][INFO ][pool-2-thread-2][NioServerHandler] - 模接收到的报文为：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>FBP20180308165418_58139</transid>
+  <datetime>20180308165418</datetime>
+  <retcode>0000</retcode>
+  <mobileid>a2a8155233da9cf7a24f1daa0533a861</mobileid>
+  <querymonth>201702</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">430</value><value m="2">7670</value><value m="3">330</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">216807</value><value m="2">84762</value><value m="3">45375</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">5085</value><value m="2">19370</value><value m="3">2860</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">8</value><value m="2">9</value><value m="3">2</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>unknown</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>unknown</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>3</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">10</value><value m="2">14</value><value m="3">10</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">unknown</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">unknown</value>
+</Label>
+
+</request>
+[20180309 150014 049][INFO ][pool-2-thread-2][NioServerHandler] - [FBP20180308165418_58139,20180308165418,Gcs2000006,a2a8155233da9cf7a24f1daa0533a861]响应耗时:10,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308165418_58139</transid>
+    <datetime>20180309150014</datetime>
+    <retcode>0000</retcode>
+    <score>432</score>
+</response>
+
+[20180309 150014 050][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308165418_58139</transid>
+    <datetime>20180309150014</datetime>
+    <retcode>0000</retcode>
+    <score>432</score>
+</response>
+
+[20180309 150014 053][INFO ][pool-2-thread-2][Mina2H4Abstract] - * (0x0000000A: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 150014 054][INFO ][pool-2-thread-2][Mina2H4Abstract] - * [0x0000000A] 读1/4142B,写1/382B,历时15ms,读写速度:133.3(R+W/s)/301.60(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180309 150048 344][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x0000000B: nio socket, server, /127.0.0.1:51476 => /127.0.0.1:9013)...Sessions=1
+[20180309 150048 346][INFO ][pool-2-thread-1][NioServerHandler] - 收到的url：/
+[20180309 150048 347][INFO ][pool-2-thread-1][NioServerHandler] - 模接收到的报文为：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>FBP20180308163728_48158</transid>
+  <datetime>20180308163728</datetime>
+  <retcode>0000</retcode>
+  <mobileid>6e76961f4dacdaa207c8f1f61af5fca2</mobileid>
+  <querymonth>201612</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">1800</value><value m="2">1600</value><value m="3">1520</value><value m="4">2550</value><value m="5">1800</value><value m="6">8000</value><value m="7">8000</value><value m="8">7990</value><value m="9">7860</value><value m="10">2030</value><value m="11">1850</value><value m="12">1840</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">1800</value><value m="2">1600</value><value m="3">1520</value><value m="4">2550</value><value m="5">1800</value><value m="6">8000</value><value m="7">8000</value><value m="8">7990</value><value m="9">7860</value><value m="10">2030</value><value m="11">1850</value><value m="12">1840</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">34</value><value m="2">34</value><value m="3">47</value><value m="4">36</value><value m="5">27</value><value m="6">6</value><value m="7">12</value><value m="8">13</value><value m="9">9</value><value m="10">11</value><value m="11">15</value><value m="12">18</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">20390</value><value m="2">18000</value><value m="3">26139</value><value m="4">20400</value><value m="5">26200</value><value m="6">8000</value><value m="7">21460</value><value m="8">8800</value><value m="9">4010</value><value m="10">18000</value><value m="11">18000</value><value m="12">18010</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201406</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>201301</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>3</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">2</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">3</value>
+</Label>
+
+</request>
+[20180309 150048 367][INFO ][pool-2-thread-1][NioServerHandler] - [FBP20180308163728_48158,20180308163728,Gcs2000006,6e76961f4dacdaa207c8f1f61af5fca2]响应耗时:21,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48158</transid>
+    <datetime>20180309150048</datetime>
+    <retcode>0000</retcode>
+    <score>348</score>
+</response>
+
+[20180309 150048 367][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48158</transid>
+    <datetime>20180309150048</datetime>
+    <retcode>0000</retcode>
+    <score>348</score>
+</response>
+
+[20180309 150048 374][INFO ][pool-2-thread-2][Mina2H4Abstract] - * (0x0000000B: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 150048 374][INFO ][pool-2-thread-2][Mina2H4Abstract] - * [0x0000000B] 读1/4024B,写1/382B,历时27ms,读写速度:74.1(R+W/s)/163.19(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180309 150126 649][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x0000000C: nio socket, server, /127.0.0.1:51540 => /127.0.0.1:9013)...Sessions=1
+[20180309 150126 651][INFO ][pool-2-thread-1][NioServerHandler] - 收到的url：/
+[20180309 150126 652][INFO ][pool-2-thread-1][NioServerHandler] - 模接收到的报文为：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>FBP20180308163728_48159</transid>
+  <datetime>20180308163728</datetime>
+  <retcode>0000</retcode>
+  <mobileid>bbaaab5348eb9d277d16efee09fcd90b</mobileid>
+  <querymonth>201607</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">0</value><value m="9">0</value><value m="10">10</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">46270</value><value m="2">132420</value><value m="3">38306</value><value m="4">29790</value><value m="5">15230</value><value m="6">5600</value><value m="7">3460</value><value m="8">9250</value><value m="9">12080</value><value m="10">55580</value><value m="11">13000</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">unknown</value><value m="2">5500</value><value m="3">2130</value><value m="4">10220</value><value m="5">2000</value><value m="6">2000</value><value m="7">2000</value><value m="8">2000</value><value m="9">1000</value><value m="10">2000</value><value m="11">unknown</value><value m="12">2000</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">unknown</value><value m="2">5500</value><value m="3">2130</value><value m="4">10220</value><value m="5">1500</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">1</value><value m="2">2</value><value m="3">2</value><value m="4">2</value><value m="5">7</value><value m="6">1</value><value m="7">3</value><value m="8">1</value><value m="9">unknown</value><value m="10">1</value><value m="11">3</value><value m="12">4</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">2410</value><value m="2">1220</value><value m="3">1110</value><value m="4">3815</value><value m="5">2030</value><value m="6">unknown</value><value m="7">1050</value><value m="8">2410</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">11</value><value m="2">3</value><value m="3">1</value><value m="4">5</value><value m="5">1</value><value m="6">unknown</value><value m="7">1</value><value m="8">1</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201503</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>unknown</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>2</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">1</value><value m="2">5</value><value m="3">2</value><value m="4">1</value><value m="5">3</value><value m="6">unknown</value><value m="7">1</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">unknown</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">8</value>
+</Label>
+
+</request>
+[20180309 150126 666][INFO ][pool-2-thread-1][NioServerHandler] - [FBP20180308163728_48159,20180308163728,Gcs2000006,bbaaab5348eb9d277d16efee09fcd90b]响应耗时:15,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48159</transid>
+    <datetime>20180309150126</datetime>
+    <retcode>0000</retcode>
+    <score>357</score>
+</response>
+
+[20180309 150126 666][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48159</transid>
+    <datetime>20180309150126</datetime>
+    <retcode>0000</retcode>
+    <score>357</score>
+</response>
+
+[20180309 150126 670][INFO ][pool-2-thread-2][Mina2H4Abstract] - * (0x0000000C: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 150126 671][INFO ][pool-2-thread-2][Mina2H4Abstract] - * [0x0000000C] 读1/3947B,写1/382B,历时20ms,读写速度:100.0(R+W/s)/216.45(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180309 150206 393][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x0000000D: nio socket, server, /127.0.0.1:51563 => /127.0.0.1:9013)...Sessions=1
+[20180309 150206 394][INFO ][pool-2-thread-1][NioServerHandler] - 收到的url：/
+[20180309 150206 395][INFO ][pool-2-thread-1][NioServerHandler] - 模接收到的报文为：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>FBP20180308165418_58116</transid>
+  <datetime>20180308165418</datetime>
+  <retcode>0000</retcode>
+  <mobileid>2f593dfc57d946da4f1ac432f083f2fc</mobileid>
+  <querymonth>201711</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">0</value><value m="2">33570</value><value m="3">100</value><value m="4">10</value><value m="5">3120</value><value m="6">550010</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">0</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">161900</value><value m="2">18000</value><value m="3">48030</value><value m="4">13650</value><value m="5">656960</value><value m="6">376580</value><value m="7">62188</value><value m="8">950</value><value m="9">116590</value><value m="10">100599</value><value m="11">79290</value><value m="12">72280</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">29560</value><value m="2">29560</value><value m="3">26120</value><value m="4">19850</value><value m="5">28750</value><value m="6">35740</value><value m="7">29860</value><value m="8">18170</value><value m="9">29980</value><value m="10">29980</value><value m="11">14680</value><value m="12">15230</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">29560</value><value m="2">29560</value><value m="3">26120</value><value m="4">19850</value><value m="5">28750</value><value m="6">35740</value><value m="7">29860</value><value m="8">18170</value><value m="9">29980</value><value m="10">29980</value><value m="11">14680</value><value m="12">15230</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">7</value><value m="2">7</value><value m="3">10</value><value m="4">unknown</value><value m="5">5</value><value m="6">3</value><value m="7">9</value><value m="8">14</value><value m="9">3</value><value m="10">7</value><value m="11">13</value><value m="12">7</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">40000</value><value m="2">38500</value><value m="3">41082</value><value m="4">unknown</value><value m="5">39000</value><value m="6">29812</value><value m="7">84580</value><value m="8">55000</value><value m="9">90</value><value m="10">41500</value><value m="11">55800</value><value m="12">46837</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">26680</value><value m="2">2000</value><value m="3">790</value><value m="4">2690</value><value m="5">1140</value><value m="6">119410</value><value m="7">1670</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">0</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">5</value><value m="2">1</value><value m="3">1</value><value m="4">4</value><value m="5">1</value><value m="6">6</value><value m="7">2</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">0</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201306</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>201603</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>2</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">3</value><value m="2">3</value><value m="3">2</value><value m="4">unknown</value><value m="5">1</value><value m="6">4</value><value m="7">1</value><value m="8">2</value><value m="9">unknown</value><value m="10">0</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">1</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">7</value>
+</Label>
+
+</request>
+[20180309 150206 405][INFO ][pool-2-thread-1][NioServerHandler] - [FBP20180308165418_58116,20180308165418,Gcs2000006,2f593dfc57d946da4f1ac432f083f2fc]响应耗时:11,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308165418_58116</transid>
+    <datetime>20180309150206</datetime>
+    <retcode>0000</retcode>
+    <score>583</score>
+</response>
+
+[20180309 150206 406][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308165418_58116</transid>
+    <datetime>20180309150206</datetime>
+    <retcode>0000</retcode>
+    <score>583</score>
+</response>
+
+[20180309 150206 408][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x0000000D: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 150206 409][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x0000000D] 读1/3880B,写1/382B,历时14ms,读写速度:142.9(R+W/s)/304.43(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180309 150237 638][INFO ][pool-2-thread-2][Mina2H4Abstract] - O (0x0000000E: nio socket, server, /127.0.0.1:51576 => /127.0.0.1:9013)...Sessions=1
+[20180309 150237 641][INFO ][pool-2-thread-2][NioServerHandler] - 收到的url：/
+[20180309 150237 641][INFO ][pool-2-thread-2][NioServerHandler] - 模接收到的报文为：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>FBP20180308163728_48558</transid>
+  <datetime>20180308163728</datetime>
+  <retcode>0000</retcode>
+  <mobileid>c6b5efac23bc31915c289f9e4d409e51</mobileid>
+  <querymonth>201703</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">unknown</value><value m="2">2</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">unknown</value><value m="2">0</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">unknown</value><value m="2">0</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">unknown</value><value m="2">0</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">unknown</value><value m="2">0</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">1</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">2</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">unknown</value><value m="2">0</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">unknown</value><value m="2">0</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">unknown</value><value m="2">0</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201509</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>unknown</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>4</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">unknown</value><value m="2">0</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">2</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">6</value>
+</Label>
+
+</request>
+[20180309 150237 662][INFO ][pool-2-thread-2][NioServerHandler] - [FBP20180308163728_48558,20180308163728,Gcs2000006,c6b5efac23bc31915c289f9e4d409e51]响应耗时:21,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48558</transid>
+    <datetime>20180309150237</datetime>
+    <retcode>0000</retcode>
+    <score>304</score>
+</response>
+
+[20180309 150237 662][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48558</transid>
+    <datetime>20180309150237</datetime>
+    <retcode>0000</retcode>
+    <score>304</score>
+</response>
+
+[20180309 150237 668][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x0000000E: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 150237 669][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x0000000E] 读1/4120B,写1/382B,历时27ms,读写速度:74.1(R+W/s)/166.74(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180309 150315 003][INFO ][pool-2-thread-2][Mina2H4Abstract] - O (0x0000000F: nio socket, server, /127.0.0.1:51594 => /127.0.0.1:9013)...Sessions=1
+[20180309 150315 005][INFO ][pool-2-thread-2][NioServerHandler] - 收到的url：/
+[20180309 150315 005][INFO ][pool-2-thread-2][NioServerHandler] - 模接收到的报文为：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>FBP20180308165418_58524</transid>
+  <datetime>20180308165418</datetime>
+  <retcode>0000</retcode>
+  <mobileid>880007b46aba7646ad8fbc82d02515a2</mobileid>
+  <querymonth>201606</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">3120</value><value m="2">unknown</value><value m="3">4010</value><value m="4">18450</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">3120</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">18450</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">1</value><value m="2">1</value><value m="3">1</value><value m="4">1</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201512</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>unknown</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>2</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">unknown</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">4</value>
+</Label>
+
+</request>
+[20180309 150315 016][INFO ][pool-2-thread-2][NioServerHandler] - [FBP20180308165418_58524,20180308165418,Gcs2000006,880007b46aba7646ad8fbc82d02515a2]响应耗时:11,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308165418_58524</transid>
+    <datetime>20180309150315</datetime>
+    <retcode>0000</retcode>
+    <score>340</score>
+</response>
+
+[20180309 150315 016][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308165418_58524</transid>
+    <datetime>20180309150315</datetime>
+    <retcode>0000</retcode>
+    <score>340</score>
+</response>
+
+[20180309 150315 018][INFO ][pool-2-thread-2][Mina2H4Abstract] - * (0x0000000F: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 150315 018][INFO ][pool-2-thread-2][Mina2H4Abstract] - * [0x0000000F] 读1/4155B,写1/382B,历时15ms,读写速度:133.3(R+W/s)/302.47(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180309 150346 566][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x00000010: nio socket, server, /127.0.0.1:51607 => /127.0.0.1:9013)...Sessions=1
+[20180309 150346 569][INFO ][pool-2-thread-1][NioServerHandler] - 收到的url：/
+[20180309 150346 569][INFO ][pool-2-thread-1][NioServerHandler] - 模接收到的报文为：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>FBP20180308163728_48449</transid>
+  <datetime>20180308163728</datetime>
+  <retcode>0000</retcode>
+  <mobileid>a8ad76c70b88743be1b93bbc9f58b46d</mobileid>
+  <querymonth>201606</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">1890</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">1400</value><value m="2">400</value><value m="3">800</value><value m="4">1100</value><value m="5">90</value><value m="6">1000</value><value m="7">1100</value><value m="8">1000</value><value m="9">1100</value><value m="10">1200</value><value m="11">1400</value><value m="12">1200</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">unknown</value><value m="2">10</value><value m="3">260</value><value m="4">150</value><value m="5">90</value><value m="6">290</value><value m="7">60</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">50</value><value m="11">1400</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">1</value><value m="2">1</value><value m="3">1</value><value m="4">1</value><value m="5">3</value><value m="6">1</value><value m="7">1</value><value m="8">1</value><value m="9">unknown</value><value m="10">1</value><value m="11">1</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">1100</value><value m="2">1300</value><value m="3">1100</value><value m="4">1120</value><value m="5">1750</value><value m="6">600</value><value m="7">1300</value><value m="8">1200</value><value m="9">unknown</value><value m="10">2200</value><value m="11">1100</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201304</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>unknown</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>4</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">unknown</value><value m="2">unknown</value><value m="3">unknown</value><value m="4">unknown</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">unknown</value><value m="9">unknown</value><value m="10">unknown</value><value m="11">unknown</value><value m="12">unknown</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">unknown</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">2</value>
+</Label>
+
+</request>
+[20180309 150346 580][INFO ][pool-2-thread-1][NioServerHandler] - [FBP20180308163728_48449,20180308163728,Gcs2000006,a8ad76c70b88743be1b93bbc9f58b46d]响应耗时:11,返回的报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48449</transid>
+    <datetime>20180309150346</datetime>
+    <retcode>0000</retcode>
+    <score>391</score>
+</response>
+
+[20180309 150346 581][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>FBP20180308163728_48449</transid>
+    <datetime>20180309150346</datetime>
+    <retcode>0000</retcode>
+    <score>391</score>
+</response>
+
+[20180309 150346 586][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x00000010: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9013)...Sessions=0
+[20180309 150346 586][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x00000010] 读1/4023B,写1/382B,历时19ms,读写速度:105.3(R+W/s)/231.84(KB/s)...Mina2HandlerAbstract.onClosed()

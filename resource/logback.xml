@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scan="true" scanPeriod="5" debug="false">
+
+	<Property name="log.base" value="log/" />
+
+	<!--console -->
+	<appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>[%date{yyyyMMdd HHmmss SSS}][%-5p][%t][%c{0}] - %m%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<!-- detail log -->
+	<appender name="detail"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.base}detail.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<FileNamePattern>${log.base}detail.%d{yyyy-MM-dd}.log
+			</FileNamePattern>
+		</rollingPolicy>
+		<encoder>
+			<pattern>[%date{yyyyMMdd HHmmss SSS}][%-5p][%t][%c{0}] - %m%n
+			</pattern>
+		</encoder>
+	</appender>
+	<!-- 响应简要日志  -->
+	<logger name="response_arg_simple" additivity="false">
+		<appender name="response_arg_simple"
+			class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<file>${log.base}response_arg_simple.log</file>
+			<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<FileNamePattern>${log.base}response_arg_simple.%d{yyyy-MM-dd}.log
+				</FileNamePattern>
+			</rollingPolicy>
+			<encoder>
+				<pattern>%m%n</pattern>
+			</encoder>
+		</appender>
+	</logger>
+    <!-- 请求简要日志 -->
+	<logger name="request_arg_simple" additivity="false">
+		<appender name="request_arg_simple"
+			class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<file>${log.base}request_arg_simple.log</file>
+			<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<FileNamePattern>${log.base}request_arg_simple.%d{yyyy-MM-dd}.log
+				</FileNamePattern>
+			</rollingPolicy>
+			<encoder>
+				<pattern>%m%n</pattern>
+			</encoder>
+		</appender>
+	</logger>
+	<root level="info">
+		<appender-ref ref="stdout" />
+		<appender-ref ref="detail" />
+	</root>
+
+</configuration>
